@@ -1,0 +1,3 @@
+[submodule "third_party/o3b"]
+	path = third_party/o3b
+	url = https://github.com/GenIntel/o3b.git
