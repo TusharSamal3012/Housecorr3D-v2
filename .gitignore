@@ -1,0 +1,34 @@
+venv/
+venv*/
+wandb/
+tables/
+.gs.txt
+checkpoints/
+uncond_text.pt
+*.egg-info/
+*.egg
+__pycache__/
+*.pyc
+*.pyo
+
+# credentials
+config/platform/credentials/custom/default_custom.yaml
+config/platform/custom/local_custom.yaml
+config/platform/custom/slurm_custom.yaml
+config/platform/local_akopyane.yaml
+
+# dataset (large binary files — do not commit)
+# Leading / anchors to repo root so it does NOT match src/housecorr3dv2/ on
+# case-insensitive filesystems (macOS HFS+).
+/HouseCorr3Dv2/
+
+# IDE / session-local tool directories
+.claude/
+Claude analysis/
+
+# OS metadata
+.DS_Store
+
+# build artifacts
+dist/
+build/
