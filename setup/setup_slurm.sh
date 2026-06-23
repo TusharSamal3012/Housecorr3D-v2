@@ -6,7 +6,7 @@ set -euo pipefail
 
 PATH_WS="${PATH_WS:-/work/dlclarge1/sommerl-od3d}"
 PATH_CUDA="${PATH_CUDA:-/usr/local/cuda-12.4}"
-REPO_URL="${REPO_URL:-}"                                    # housecorr3d SSH URL
+REPO_URL="${REPO_URL:-git@github.com:TusharSamal3012/Housecorr3D-v2.git}"                                    # housecorr3d SSH URL
 REPO_NAME="${REPO_NAME:-$(basename "${REPO_URL}" .git)}"   # e.g. HouseCorr3Dv2
 BRANCH="${BRANCH:-main}"
 PULL="${PULL:-true}"
