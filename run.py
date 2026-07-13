@@ -56,6 +56,7 @@ if __name__ == "__main__":
     for _mesh_type in (
         "mc16_vuni4_r256_fdiff3f",
         "mc16_vuni4_r256_fdinov2s",
+        "mc16_vuni4_r256_fsiglip2",
     ):
         run_cfg(
             benchmark=_BENCHMARK,
