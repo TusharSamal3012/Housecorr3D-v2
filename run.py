@@ -58,6 +58,7 @@ if __name__ == "__main__":
         "mc16_vuni4_r256_fdinov2s",
         "mc16_vuni4_r256_fsiglip2",
         "mc16_vuni4_r256_fdinov3b",
+        "mc16_vuni4_r256_ftipsv2",
     ):
         run_cfg(
             benchmark=_BENCHMARK,
