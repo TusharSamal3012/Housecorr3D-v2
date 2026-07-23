@@ -17,6 +17,9 @@ bench:
   class_name: ObjectPairBench
   batch_size: 4
 
+eval:
+  num_workers: 1
+
 wandb:
   project: hc3d_eval
 
