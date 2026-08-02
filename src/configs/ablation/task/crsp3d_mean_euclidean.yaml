@@ -1,0 +1,3 @@
+task:
+  match_mode: mean
+  dist_type: euclidean

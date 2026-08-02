@@ -1,0 +1,3 @@
+task:
+  match_mode: min_pairwise
+  dist_type: euclidean
