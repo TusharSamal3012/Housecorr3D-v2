@@ -10,7 +10,7 @@ class FunctionalMapsMethod(Method):
     def __init__(self, num_eigenvectors: int = 50, **kwargs):
         self.num_eigenvectors = num_eigenvectors
 
-    def forward(self, batch):
+    def forward(self, batch, return_qualit: bool = True):
         raise NotImplementedError(
             "FunctionalMapsMethod.forward() is not yet implemented."
         )

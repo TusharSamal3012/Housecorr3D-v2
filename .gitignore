@@ -22,6 +22,16 @@ config/platform/local_akopyane.yaml
 # case-insensitive filesystems (macOS HFS+).
 /HouseCorr3Dv2/
 
+# local Colab-upload zip of the checkout (~1GB — exceeds GitHub's 100MB file limit)
+/HouseCorr3Dv2.zip
+
+# working files not meant for this remote (poster, notes, results drafts, Colab notebook)
+/DLL26 - UFR Poster Template.pptx
+/content.md
+/results.md
+/results.png
+/setup/colab_setup.ipynb
+
 # IDE / session-local tool directories
 .claude/
 Claude analysis/

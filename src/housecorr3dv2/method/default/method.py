@@ -7,5 +7,5 @@ from housecorr3dv2.method.method import Method, register_method
 class DefaultMethod(Method):
     """Identity method — returns the input batch unchanged."""
 
-    def forward(self, batch):
+    def forward(self, batch, return_qualit: bool = True):
         return batch
