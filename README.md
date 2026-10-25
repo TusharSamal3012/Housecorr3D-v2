@@ -84,9 +84,9 @@ docs/poster.pdf      project poster
 DATASETS.md          dataset notes
 ```
 
-**Note on the submodule:** the model and task changes live in our `o3b` fork, on the
-[`dinov3-integration`](https://github.com/TusharSamal3012/o3b/tree/dinov3-integration) branch
-(that is the commit this repo pins). The fork's `main` branch is unmodified upstream.
+**Note on the submodule:** the model and task changes live in our
+[`o3b` fork](https://github.com/TusharSamal3012/o3b) (merged into its `main`). This repo pins
+commit `a87bf33`, which is also on the fork's `dinov3-integration` branch.
 
 ## Setup
 
